@@ -1,0 +1,136 @@
+/* Navbar Section */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  display: inline-flex;
+  margin: 7vh 15vh;
+
+  position: absolute;
+}
+
+.navbar-container img {
+  height: 5vh;
+}
+
+.list {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 2vh 30vh;
+}
+
+.list-item {
+  margin: 0vh 3.5vh;
+  font-size: larger;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list-item:hover {
+  border-bottom: 0.4vh solid black;
+  transform: scale(1.2);
+}
+
+.button-group {
+  display: inline-flex;
+}
+
+.search-icon {
+  transform: scale(0.8);
+}
+
+.nav-button {
+  margin: 0vh 1.5vh;
+  padding: 1vh 5vh;
+  background-color: transparent;
+  border-radius: 1.5vh;
+  border-width: 0.4vh;
+  font-size: large;
+  color: grey;
+}
+
+.star:nth-child(even) img {
+  translate: 970px -60px;
+  width: 50px;
+}
+
+.star:nth-child(odd) img {
+  translate: 300px 350px;
+  width: 40px;
+}
+
+/* globe image */
+
+.globe img {
+  translate: 300px -100px;
+  width: 60px;
+}
+
+/* sqaure image */
+.square img {
+  translate: 225px 375px;
+  width: 45vh;
+}
+/* person image */
+.hero-container div:nth-child(odd) img {
+  translate: 100px -200px;
+  width: 400px;
+}
+
+/* right side */
+.hero-container-right {
+  translate: 650px -550px;
+  width: 50%;
+}
+
+.hero-heading {
+  font-size: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 4vh;
+}
+
+.hero-container-right p {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 70px;
+  color: grey;
+}
+
+.button-email {
+  margin-left: 210px;
+  padding: 5px 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: transparent;
+  color: gray;
+}
+
+.button-join {
+  margin-left: 10px;
+  padding: 2px 5px;
+  font-size: large;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+}
+
+.contact-heading {
+  margin-left: 325px;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  color: gray;
+}
+
+.icons {
+  /* display: inline-flex; */
+  margin-left: 310px;
+}
+
+.icons img {
+  width: 25px;
+}
